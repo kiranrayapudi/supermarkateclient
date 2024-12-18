@@ -16,7 +16,7 @@ const Home = () => {
     document.title= "Welcome to the SuperMarket"
 })
 useEffect (()=>{
-  axios.get("http://localhost:4000/products")
+  axios.get("https://supermarketserver-mmhe.onrender.com/Products")
   .then((res) => {
     const data = res.data.filter((item) => {
       return item.category === "FruitsVegitables";
