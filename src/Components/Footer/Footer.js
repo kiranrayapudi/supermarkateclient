@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
        <div className='container-fluid foot text-white p-5  mt-2 rounded-2'>
         <div className='row footer'>
-            <div className='col-3 fw-bold '>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 fw-bold mb-3'>
            <h5 className='fw-bold'>SuperMarket</h5>
          <p> <NavLink className="nav-link" to="/aboutus">About Us</NavLink></p>
          <p>Become A SuperMarket Rider</p>
@@ -22,7 +22,7 @@ const Footer = () => {
          <p>super marketnow</p>
 
             </div>
-            <div className='col-3 col-sm-12 col-mb-6 col-lg-3 col-xl-3 fw-bold '>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 fw-bold mb-3'>
                 <h5>Help</h5>
                 <p> FAQs </p>
                 <p> Contact Us </p>
@@ -31,15 +31,15 @@ const Footer = () => {
                 <p>Vendor Connect</p>
 
             </div>
-            <div className='col-3 fw-bold '>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 fw-bold mb-3 '>
                 <h5> <NavLink className="nav-link" to="/aboutus">About Us</NavLink></h5>
                 
                 <p> Contact Us </p>
                
 
             </div>
-            <div className='col-3 col-sm-12 col-mb-6 col-lg-3 col-xl-3'>
-                <img src={log} className='rounded-5' alt='log'/>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 text-center mb-3'>
+                <img src={log} className='rounded-5 img-fluid' alt='log'/>
                 <div className=' m-5'>
                <h3 className='bi bi-facebook'> <span className='bi bi-instagram'> <span className='bi bi-twitter'><span className='bi bi-youtube'> <span className='bi bi-whatsapp'></span></span></span></span> </h3>
             
