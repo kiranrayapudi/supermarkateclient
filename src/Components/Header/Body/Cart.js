@@ -7,8 +7,8 @@ import { toast, ToastContainer } from 'react-toastify';
 const Cart = () => {
   
   const [cartdata,setcartdata] = useState([]);
-  const [count,setcount] = useState(1);
- const [selectedProduct, setSelectedProduct] = useState();
+  const [count,setcount] = useState(0);
+ const [selectedProduct, setSelectedProduct] = useState(null);
  
 
 useEffect(()=>{
@@ -61,7 +61,7 @@ if (productToEdit) {
           item._id === selectedProduct._id ? updatedData : item
         )
       );
-      setSelectedProduct(Number);
+      setSelectedProduct(null);
       setcount(1);
     })
     .catch((err) => {
