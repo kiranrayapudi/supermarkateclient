@@ -88,22 +88,22 @@ const EggsMeat = () => {
        <div className='container p-5 Border '>
         <h4 className='text-center fw-bold text-decoration-underline'>Why choose Super Market <span className='text-danger'>?</span></h4>
         <div className='row '>
-          <div className='col-3 back rounded-5 p-4'>
+          <div className='col-12 col-sm-6 col-md-3 back rounded-5 p-4 border-end border-5'>
            <h2 className='bi bi-bag-plus-fill text-center rounded-'> </h2>
            <p className='text-center fw-bold'>Quality</p>
            <p className='text-center'>You Can Trust</p>
           </div>
-          <div className='col-3 back rounded-5 p-4'>
+          <div className='col-12 col-sm-6 col-md-3 back rounded-5 p-4 border-end border-5'>
            <h2 className='bi bi-clock-fill text-center'> </h2>
            <p className='text-center fw-bold '>On Time </p>
            <p className='text-center'>Guarantee</p>
           </div>
-          <div className='col-3 back rounded-5 p-5'>
+          <div className='col-12 col-sm-6 col-md-3 back rounded-5 p-4 border-end border-5'>
            <h2 className='bi bi-truck text-center'> </h2>
            <p className='text-center fw-bold'>Free Delivery</p>
            
           </div>
-          <div className='col-3 back rounded-5 p-4'>
+          <div className='col-12 col-sm-6 col-md-3 back rounded-5 p-4 border-end border-5'>
            <h2 className='bi bi-check2-circle text-center'> </h2>
            <p className='text-center fw-bold'>Return Policy</p>
            <p className='text-center'>No Question asked</p>
