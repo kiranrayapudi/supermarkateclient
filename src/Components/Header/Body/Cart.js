@@ -75,7 +75,7 @@ return (
   <div className='row rounded p-2 border border-5 rounded-4 ' >
     {cartdata.map((cart,index)=>{
       return(
-      <div className='col-3 h-50 mx-auto m-3 p-2 text-center rounded-4' key={index}>
+      <div className='col-12 col-sm-6 col-md-4 col-lg-3 h-50 mx-auto m-3 p-2 text-center rounded-4' key={index}>
      <div className='card-image m-5' >
         <img src={cart.product.image} className='image1 rounded-4 productimage' alt=''/>
        </div>
