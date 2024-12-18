@@ -46,7 +46,7 @@ const Admin = () => {
 
         </div>
        
-        <div className=' col-12 col-md-6'>
+        <div className='col-12 col-sm-10 col-md-6 col-lg-5'>
             <form onSubmit={logincheck}  className='container p-5'>
                 <input type='text' name='username' placeholder='username' value={username} onChange={(e)=>setusername(e.target.value)} className='form-control mb-3 w-50'/>
                 <input type='password' name='password' placeholder='Enter password' value={password} onChange={(e)=>setpassword(e.target.value)} className='form-control mb-3 w-50'/>
