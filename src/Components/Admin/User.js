@@ -149,7 +149,7 @@ const User = () => {
             <ToastContainer/>
             <h2 className='fw-bold text-center text-decoration-underline'>Welcome to the Super Market</h2>
             <div className='row shadow rounded'>
-                <div className='col-8 col-lg-6 mx-auto border-end p-5  rounded-4 log'>
+                <div className='col-12 col-sm-10 col-md-8 col-lg-6 mx-auto border-end p-3 p-md-4 p-lg-5 rounded-4 log'>
         <form onSubmit={logincheck} className='txt-center p-5'  >
             <h2 className='text-center fw-bold'> UserLogin</h2>
                 <input type='text' name='username' placeholder='username' value={username} onChange={(e)=>setusername(e.target.value)} className='form-control form-control mx-auto mb-3 '/>
@@ -161,7 +161,7 @@ const User = () => {
                 <input type='submit' value='login'className='btn btn-danger form-control mb-2 w-50 ' />
             </form>
             </div>
-            <div className='col-4'>
+            <div className='col-12 col-sm-10 col-md-4 mx-auto p-2'>
                 <img src={userimage} className='w-100' alt='userimage'/>
 
             </div>
