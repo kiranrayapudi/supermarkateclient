@@ -20,10 +20,10 @@ const Details = () => {
   return (
     <div className='container p-2 details rounded-4'>
           <div className='row Border'>
-            <div className='col-6'>
+            <div className='col-6 col-sm-6 col-md-3'>
             <img src={product.image} className='rounded-4 ' alt=''/>
             </div>
-            <div className='col-6'>
+            <div className='col-6 col-sm-6 col-md-3'>
 
             
             <h1 className='text-decoration-underline'>{product.company}!</h1>
