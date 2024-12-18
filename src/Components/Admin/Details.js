@@ -21,7 +21,7 @@ const Details = () => {
     <div className='container p-2 details rounded-4'>
           <div className='row Border'>
             <div className='col-6 col-sm-12 col-md-12'>
-            <img src={product.image} className='rounded-4 ' alt=''/>
+            <img src={product.image} className='rounded-4 img-fluid' alt=''/>
             </div>
             <div className='col-6 col-sm-12 col-md-12'>
 
