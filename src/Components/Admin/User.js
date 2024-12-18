@@ -117,15 +117,11 @@ const User = () => {
           }
         }
       }
-      if(namestatus && mobilestatus && emailstatus){
-        navigate("*") 
-      }else {
-        toast.error("please login")
-      }
-    
-    
-        
-    }
+   if (namestatus && mobilestatus && emailstatus) {
+  navigate("*");
+} else {
+  toast.error("Please login");
+}
   return (
     <div className='container p-5'>
         
