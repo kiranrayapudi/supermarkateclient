@@ -4020,7 +4020,7 @@ Zunhebotto</p>
 
        </div>
        <div className='contaiiner-fluid p-2 text-center text-white footbg'>
-        <h6 className='bi bi-email'>Copyright © 2023-2025 Supermarket Grocery Supplies Pvt Ltd</h6>
+        <h6 className='bi bi-email'>Copyright KiranRayapudi © 2023-2025 Supermarket Grocery Supplies Pvt Ltd</h6>
        </div>
        
     </div>
