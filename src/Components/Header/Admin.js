@@ -40,13 +40,13 @@ const Admin = () => {
         <ToastContainer/>
          <h2 className='fw-bold text-center text-white'>Admin Login</h2>
     <div className='row '>
-    <div className='col-6 text-center'>
-            <img src={admin} className='adminimage rounded-4' alt='admin'/>
+    <div className='col-12 col-md-6 text-center mb-4 mb-md-0r'>
+            <img src={admin} className='adminimage rounded-4 img-fluid' alt='admin'/>
            
 
         </div>
        
-        <div className=' col-6 '>
+        <div className=' col-12 col-md-6'>
             <form onSubmit={logincheck}  className='container p-5'>
                 <input type='text' name='username' placeholder='username' value={username} onChange={(e)=>setusername(e.target.value)} className='form-control mb-3 w-50'/>
                 <input type='password' name='password' placeholder='Enter password' value={password} onChange={(e)=>setpassword(e.target.value)} className='form-control mb-3 w-50'/>
