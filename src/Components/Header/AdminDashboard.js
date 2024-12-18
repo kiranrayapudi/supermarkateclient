@@ -18,9 +18,7 @@ const AdminDashboard = () => {
   }else if(View==="ViewProducts"){
     return<ViewProducts/>
   
-  }else if(View==="ViewContactdetails"){
-      return<Contactdetails/>
-    }
+  }
 
   }
   return (
@@ -29,16 +27,16 @@ const AdminDashboard = () => {
         
         <div className='row '>
         <h2 className="fw-bold text-decoration-underline">Admin Dashboard</h2>
-          <div className='col-3 py-5 border-end border-2 '>
+          <div className='col-12 col-sm-4 col-md-3 py-5 border-end border-2'>
             <aside>
             <button onClick={() => setview("AddProducts")} className='border-start border-white rounded-2 m-2 aside fw-bold'>Add product's</button>
             <button onClick={() => setview("ViewProducts")} className='border-start border-white rounded-2 m-2 aside fw-bold'>View product's</button>
-             <button onClick={() => setview("ViewContactdetails")} className='border-start border-white rounded-2 m-2 aside fw-bold'>user details</button>
+             >
              
             </aside>
 
           </div>
-          <div className="col-9 container p-2 text-center">{Dashboardview()}</div>
+          <div className="col-12 col-sm-8 col-md-9 container p-2 text-center">{Dashboardview()}</div>
 
         </div>
         </div>
