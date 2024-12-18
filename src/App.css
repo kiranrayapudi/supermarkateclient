@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+
+.Header{
+
+ background-position: center;
+ position:sticky;
+ z-index: 1;
+ top: 0;
+ width: 100%;
+ margin-bottom: 20px;
+
+}
+.logo{
+  width:100px;
+
+  
+}
+.navbar{
+  background-image:url("./Components/Header/images/background\ Logo\ copy.jpg");
+  background-size:cover;
+  height: 90px;
+  
+  
+  width: 100%;
+ 
+}
+.navbutton{
+  background-color: #f5f2f25d;
+  
+}
+.card{
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 5px 2px rgba(199, 197, 197, 0.377);
+  
+  
+}
+.card:hover{
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 10px 2px rgb(90, 78, 78);
+}
+.cardbg{
+  background-color: #f0f0f0;
+  
+}
+
+.menubg{
+  background-color: aquamarine;
+}
+.Border{
+  border-bottom: 2px dotted #3130305b;
+}
+.Eggs{
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 5px 2px rgba(14, 5, 5, 0.377);
+}
+.Side{
+  background-color: #f1e9e9ad;
+ 
+
+}
+.aside{
+  width: 90%;
+  height: 50px;
+  
+
+ 
+}
+.aside:hover{
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px 2px rgba(90, 78, 78, 0.418);
+}
+.dashboard{
+  font-size: small;
+}
+.font{
+  font-size:small;
+}
+.size{
+  font-size: x-small;
+}
+.kiran{ margin-bottom: 20px;
+box-shadow: 2px 2px 5px 2px rgba(199, 197, 197, 0.377);
+
+}
+.back{
+  
+  background-color: #e2d6d698;
+}
+.footer{
+  border-bottom: 2px dotted #f8f7f7c9;
+  font-family: 'Times New Roman', Times, serif;
+}
+.foot{
+  font-size:small;
+  background-color: rgba(13, 13, 14, 0.76);
+  
+ 
+}
+.footbg{
+  background-color: #0c0c0cf8;
+}
+.Home{
+  
+  box-shadow: 2px 2px 5px 2px rgba(199, 197, 197, 0.377);
+}
+.button{
+  width: 150px;
+  height:50px;
+}
+.homecard{
+  height: auto;
+}
+.adminimage{
+  width: 160px;
+}
+.adminbg{
+ background-image: url("./Components/Header/AdminImages/bgimage.png");
+ background-size:cover;
+}
+.back{
+  background-color: #e2d6d698;
+  font-family: 'Times New Roman', Times, serif;
+}
+.about{
+  background-image: url("./Components/Header/Body/Aboutimage/image3.jpg");
+  background-size:cover;
+}
+.abimage{
+  width: 290px;
+  height: auto;
+}
+.images{
+  width:auto;
+  height: 200px;
+}
+.log{
+  background-image: url("./Components/Header/images/Header background.jpg");
+  background-position: cover;
+  width: 100px;
+}
+.cart{
+  background-color: #fcfafa;
+}
+.productimage{
+  width: 100px;
+  height: 100px;
+
+
+} 
+.productimage1{
+  width: 150px;
+  height: 150px;
+}
+.details{
+  background-color: #e2d6d698;
+}
+.height{
+width: 20px;
+height: 150px;
+}
