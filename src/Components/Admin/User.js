@@ -119,7 +119,7 @@ const User = () => {
       }
       if(namestatus && mobilestatus && emailstatus){
         
-        axios.post("http://localhost:4000/Contact",{username,mobile,email})
+      
         .then(()=>{
             
             toast.success('Logged in!', {
