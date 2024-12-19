@@ -71,7 +71,7 @@ useEffect (()=>{
 
   </div>
   <div className='col-3'>
-    <button className='button m-2 btn btn-warning w-100 text-truncate'><NavLink className="dropdown-item fw-bold text-center" to="/fruits&vegetables">Fruits&Vegetables</NavLink></button>
+    <button className='button m-2 btn btn-warning w-100 text-truncate custom-font'><NavLink className="dropdown-item fw-bold text-center" to="/fruits&vegetables">Fruits&Vegetables</NavLink></button>
   </div>
   <div className='col-3'>
     <button className='button m-2 btn btn-info w-100'><NavLink className="nav-link fw-bold" to="/eggsmeat">Fish</NavLink></button>
