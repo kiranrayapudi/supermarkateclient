@@ -8,7 +8,7 @@ import { toast, ToastContainer } from 'react-toastify';
 const Addcart = () => {
   const {_id} = useParams();
     const [product,setproduct]=useState([]); 
-    const [count,setcount] = useState(0);
+    const [count,setcount] = useState([]);
 
     useEffect(() => {
       axios.get(`https://supermarketserver-mmhe.onrender.com/Products/${_id}`)
